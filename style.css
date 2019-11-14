@@ -1,7 +1,6 @@
 * {
     margin: 0 auto;
     font-family: 'Alegreya Sans', sans-serif;
-
 }
 
 header {
@@ -11,7 +10,7 @@ header {
     height: 6em;
 }
 
-/* header is the only one that is full in width */
+/* header is full in width */
 #topsignin {
     background-color: #ffc864;
     text-align: center;
@@ -24,6 +23,7 @@ header {
     border-radius: 1.8em;
 }
 
+/*all links turn somehow red when hovered*/
 a:hover {
     color: red;
 }
@@ -49,17 +49,17 @@ div.fill {
     text-align: center;
     font-size: 3em;
     padding-bottom: 1em
-
 }
-div.content{
+
+div.content {
     background-color: #fffac8;
     width: 80%;
     font-size: 2.4em;
     text-align: center;
-    
+
 }
 
-div.end{
+div.end {
     background-color: #fffac8;
     width: 80%;
     align-content: center;
@@ -75,14 +75,15 @@ input[type=text] {
     margin: 1em
 }
 
-
 .txtin {
     font-size: 0.8em;
 }
 
-.txtup{
-    font-size:0.4em;
+.txtup {
+    font-size: 0.4em;
 }
+
+/*the buttons are a links so a class is needed*/
 .button {
     background-color: #ffc864;
     border: 0.1em solid;
@@ -97,7 +98,8 @@ input[type=text] {
     border: 0.1em solid;
 }
 
-.apart{
+/*sets components to be farther away*/
+.apart {
     padding-left: 2em;
     padding-right: 2em;
 }
