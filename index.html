@@ -1,40 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--This is the homepage-->
 
 <head>
     <title>DAYDAYCOOK</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap" rel="stylesheet">
-
 </head>
 
 <Body>
     <header>
-            <a href="index.html">
-                <img src="img/logo.png" height=90em>
-            </a>
+        <a href="index.html">
+            <img src="img/logo.png" height=90em>
+        </a>
+        <!--logo is put at a scale on the top left-->
         <div id="topsignin">
             <a href="signin.html">
                 sign in
             </a>
+            <!--a sign in button on the top right is necessary so that users are more likely to find the way to log in-->
         </div>
 
     </header>
 
     <nav>
         <!-- To align the symbols I made I had to put them into the same square and apply them as whole pngs-->
-
+        <!--These symbols should link to other pages, not done for this assignment-->
         <img src="img/navsearch.png" class="navi">
-
         <img src="img/navrecipes.png" class="navi">
         <img src="img/navpurchase.png" class="navi">
+        <!--Membership is the only one made a proper link here. It leads to sign in page when the user is not logged in-->
         <a href="signin.html">
             <img src="img/navmembership.png" class="navi">
         </a>
 
     </nav>
-    <section style="height:200px">
-        <img src="img/banner1.PNG" style="width:100%">
+    <section>
+        <div class="content">
+            <p>Would you like some personalised recommendations?</p>
+            <a href="signin.html">I'm already a member</a>
+            <br />
+            <a href="signup1.html">I'm new here</a>
+
+        </div>
+        <section style="height:200px">
+            <img src="img/banner1.PNG" style="width:100%">
+        </section>
     </section>
 
 </Body>
