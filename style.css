@@ -93,3 +93,8 @@ input[type=text] {
     color: red;
     border: 0.1em solid;
 }
+
+.apart{
+    padding-left: 2em;
+    padding-right: 2em;
+}
