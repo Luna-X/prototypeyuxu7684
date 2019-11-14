@@ -80,6 +80,9 @@ input[type=text] {
     font-size: 0.8em;
 }
 
+.txtup{
+    font-size:0.4em;
+}
 .button {
     background-color: #ffc864;
     border: 0.1em solid;

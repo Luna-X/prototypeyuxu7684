@@ -24,19 +24,27 @@
     <section>
         <div class="fill">
             <form>
-                <label for="un">Pick a username</label>
-                <input type="text" id="un"><br />
-                <label for="mail">Your email address</label>
-                <input type="text" id="mail"><br />
+                <label for="un">Pick a username</label><br />
+                <input type="text" class="txtup" id="un"><br />
+                <label for="mail">Your email address</label><br />
+                <input type="text" class="txtup" id="mail"><br />
                 <label for="pw">Set a password</label>
-                <input type="text" id="pw"><br />
-                <label for="pwr">Repeat your password</label>
-                <input type="text" id="pwr"><br />
+                <button onhover="pwinfo()"
+                    style="font-size: 0.4em;border-radius: 0.8em;
+                    background-color: lightsalmon">?</button>
+                <!--Javascript is used to turn on password tips when clicking a button-->
                 <br />
+                <input type="text" class="txtup" id="pw"><br />
+                <label for="pwr">Repeat your password</label><br />
+                <input type="text" class="txtup" id="pwr"><br />
+                <br />
+                <p id="info"></p>
                 <a href="endpoint.html" class="button">Submit</a>
             </form>
         </div>
     </section>
+    <script type="Text/JavaScript" src="script.js">
+    </script>
 </Body>
 
 </html>
